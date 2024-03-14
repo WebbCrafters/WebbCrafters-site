@@ -8,6 +8,8 @@
     --corpo: #000000;
     --branco: #ffffff;
     --azulCiano: #18b5d9;
+    --cubos: #272a59fa;
+    --footer: #0306296b;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 }
@@ -71,6 +73,28 @@ h2 {
 p {
     line-height: 25px;
 }
+footer {
+    background-color: var(--footer);
+    border-top: 2px solid var(--branco);
+}
+footer img#logoFooter {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+footer p {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 70px;
+    max-width: 800px;
+
+    
+}
+
 
 /*                                                                  Classes*/
 
@@ -80,7 +104,7 @@ p {
 .divisoesParagrafoRetratil {
     display: block;
     border-bottom: 1px solid var(--azulCiano);
-    border-top: 1px solid var(--azulCiano);
+    /*border-top: 1px solid var(--azulCiano);*/
 }
 .paragrafoRetratil {
     text-align: justify;
@@ -102,6 +126,29 @@ p {
 }
 .setaParaCima {
     transform: rotate(180deg);
+}
+.cubos {
+    display: grid;
+    align-items: center;
+    border: 3px solid var(--cubos);
+    padding: 5px;
+    height: 250px;
+
+    min-width: 150px;
+    width: 40vw;
+    max-width: 400px;
+
+
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.cubos h6 {
+    text-align: center;
+    font-size: 2em;
+}
+.cubos p {
+    align-self: flex-end;
+    font-size: 1.3em;
 }
 
 /*                                                                  Id's*/
@@ -167,10 +214,6 @@ p {
     line-height: 35px;
     font-size: 1.3em;
 }
-#divisaoUm {
-    border-top: 2px solid var(--branco);
-    height: 160px;
-}
 #secaoParagrafoRetratil h2 {
     font-size: 2.7em;
     margin-top: 30px;
@@ -179,6 +222,78 @@ p {
 #secaoParagrafoRetratil div {
     display: flex;
 }
+#secaoTempo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+#imagemSecaoTempo {
+    margin: auto;
+    height: 300px;
+}
+#secaoTempo article {
+    max-width: 600px;
+}
+#secaoTempo h2 {
+    font-size: 3em;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+#secaoCustos h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-left: 0px;
+    margin-bottom: 30px;
+}
+#secaoCustos p {
+    text-align: center;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 4px;
+}
+#secaoCustos > p {
+    padding: 0px;
+    margin-bottom: 40px;
+}
+
+#espacoCubos {
+    display: grid;
+    justify-items: center;
+    margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 900px;
+}
+#secaoManutencao h2 {
+    text-align: center;
+}
+#secaoManutencao article {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+#secaoManutencao img {
+    width: 35vw;
+    margin-right: 10vw;
+}
+#secaoManutencao p {
+    margin-right: 5vw;
+}
 
 
 /*                                                  Outros  */
+#divisaoUm {
+    border-top: 2px solid rgba(255, 255, 255, 0.61);
+    height: 160px;
+}
+#divisaoDois {
+    height: 160px;
+}
+#divisaoTres {
+    height: 200px;
+}
+#divisaoQuatro {
+    height: 160px;
+}
+#divisaoCinco {
+    height: 160px;
+}
