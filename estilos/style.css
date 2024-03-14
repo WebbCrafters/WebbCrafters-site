@@ -21,9 +21,14 @@
     margin: 0;
 }
 html {
-    background-color: rgb(33, 6, 58);
+    background-color: rgb(30, 1, 56);
 }
 body {
+    margin: auto;
+    display: block;
+    max-width: 1800px;
+    border-left: 2px solid var(--branco);
+    border-right: 2px solid var(--branco);
     background-color: var(--corpo);
 }
 a {
@@ -188,7 +193,7 @@ footer p {
     width: 100%;
     height: 560px;
 
-    background: black url(imagens/tela\ fundo.jpg) no-repeat fixed;
+    background: black url(../imagens/tela\ fundo.jpg) no-repeat fixed;
     background-size: cover;
     background-position: right center;
 }
@@ -296,4 +301,7 @@ footer p {
 }
 #divisaoCinco {
     height: 160px;
+}
+.soMobile {
+    display: none;
 }
