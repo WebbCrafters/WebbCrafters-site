@@ -27,8 +27,10 @@ body {
     margin: auto;
     display: block;
     max-width: 1800px;
+    /*
     border-left: 2px solid var(--branco);
     border-right: 2px solid var(--branco);
+    */
     background-color: var(--corpo);
 }
 a {
