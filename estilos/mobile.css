@@ -45,7 +45,7 @@ p {
     top: 0;
     left: -100%; /* Esconde o menu à esquerda */
     width: 100%;
-    height: 150%;
+    height: 1500px;
     background-color: #000000;
     transition: left 0.5s ease; /* Adiciona uma transição suave */
 }
@@ -68,19 +68,19 @@ p {
     align-items: center;
     margin: 0px 0px 0px 10px;
 }
-.itemMenuRetroatico {
+.itemMenuRetroativo {
     display: flex;
     align-items: center;
     font-family: 'Orbitron';
     border-bottom: 1px solid var(--branco);
     height: 100px;
 }
-.itemMenuRetroatico a {
+.itemMenuRetroativo a {
     font-size: 1.5em;
     font-family: 'Orbitron';
-    margin-left: 20px;
+    margin-left: 0px;
 }
-.itemMenuRetroatico a:hover {
+.itemMenuRetroativo a:hover {
     color: var(--azulCiano);
 }
 #primeiraTela {
