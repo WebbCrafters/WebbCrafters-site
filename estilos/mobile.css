@@ -58,7 +58,8 @@ p {
 }
 #imagemSecaoTempo {
     margin: auto;
-    height: 200px;
+    width: 60vw;
+    height: 350px;
     margin-bottom: 100px;
 }
 #secaoTempo h2 {
