@@ -24,14 +24,14 @@ p {
     margin-right: 10px;
 }
 #primeiraTela {
-    height: 300px;
-    background: black url(../imagens/tela\ fundo.jpg) no-repeat fixed;
+    height: 500px;
+    background: black url(../imagens/tela\ fundo\ cortada.jpg) no-repeat fixed;
     background-size: contain;
 }
 #sobreFundo {
     justify-content: center;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.774), black);
-    height: 300px;
+    height: 500px;
 }
 #artigoPrimeiraTela {
     margin-top: 150px;
@@ -94,6 +94,9 @@ p {
     margin: auto;
     grid-template-columns: 1fr;
     max-width: 90vw;
+}
+footer img#logoFooter {
+    height: 80px;
 }
 
 #secaoManutencao h2 {
