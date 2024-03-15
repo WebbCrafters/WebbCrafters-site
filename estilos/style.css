@@ -130,7 +130,7 @@ footer p {
     transition: max-height 0.9s ease;
 }
 .paragrafoRetratil.expandir {
-    max-height: 500px; /* Ajuste a altura máxima conforme necessário */
+    max-height: 600px; /* Ajuste a altura máxima conforme necessário */
 }
 .setaParagrafoRetratil {
     cursor: pointer;
