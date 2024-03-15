@@ -20,12 +20,41 @@
             </section>
         </a>
         <menu>
-            <li><a href="">Quem Somos</a></li>
-            <li><a href="">Portifólio</a></li>
-            <li><a href="">Serviços</a></li>
+            <li><a href="quem-somos.html">Quem Somos</a></li>
+            <li><a href="portifolio.html">Portifólio</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
         </menu>
         <a href=""><span id="botaoFaleConosco">Fale conosco</span></a>
-        <a href=""><img id="iconMenu" class="soMobile" src="imagens/menu-aberto.png" alt="Menu"></a>
+        <img class="iconMenu soMobile" src="imagens/menu-aberto.png" alt="Menu" onclick="expandirMenu()">
+
+
+        <div class="espacoMenu soMobile">
+            <div id="cabecalho">
+                <section id="secaoImagensDois">
+                    <img id="logoHeader" src="imagens/Webb crafters logo icon.png" alt="Logo da Webb Crafters">
+                    <img id="legendaHeader" src="imagens/legenda 2.png" alt="Nome Webb Crafters">
+                </section><img id="iconMenuDois" class="iconMenu soMobile" src="imagens/menu-aberto.png" alt="Menu" onclick="expandirMenu()"></div>
+                <a href="quem-somos.html">
+                    <div class="itemMenuRetroatico">
+                        <a href="quem-somos.html">Quem Somos</a>
+                    </div>
+                </a>
+                <a href="portifolio.html">
+                    <div class="itemMenuRetroatico">
+                        <a href="portifolio.html">Portifólio</a>
+                    </div>
+                </a>
+                <a href="servicos.html">
+                    <div class="itemMenuRetroatico">
+                        <a href="servicos.html">Serviços</a>
+                    </div>
+                </a>
+                <a href="contato.html">
+                    <div class="itemMenuRetroatico">
+                        <a href="contato.html">Contato</a>
+                    </div>
+                </a>
+        </div>
     </header>
     <main>
         <section id="primeiraTela">
@@ -144,25 +173,6 @@
         </p>
         </article>
     </footer>
-    <script>
-        function expandir1() {
-            var p = document.getElementById("paragrafoRetratil1");
-            p.classList.toggle("expandir");
-            var seta = document.getElementById("seta1");
-            seta.classList.toggle("setaParaCima");
-        }
-        function expandir2() {
-            var p = document.getElementById("paragrafoRetratil2");
-            p.classList.toggle("expandir");
-            var seta = document.getElementById("seta2");
-            seta.classList.toggle("setaParaCima");
-        }
-        function expandir3() {
-            var p = document.getElementById("paragrafoRetratil3");
-            p.classList.toggle("expandir");
-            var seta = document.getElementById("seta3");
-            seta.classList.toggle("setaParaCima");
-        }
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
