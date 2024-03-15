@@ -72,13 +72,19 @@ header  menu  a:hover {
 main {
     max-width: 1800px;
 }
+h1 {
+    font-family: "Orbitron";
+}
 h2 {
+    font-family: "Orbitron";
+    font-weight: 400;
     color: var(--h2);
-    font-size: 2em;
+    font-size: 2.8em;
     margin: 0px 10px 0px 10px; 
 }
 p {
-    line-height: 25px;
+    font-size: 1.2em;
+    line-height: 30px;
 }
 footer {
     background-color: var(--footer);
@@ -88,7 +94,7 @@ footer img#logoFooter {
     display: block;
     text-align: center;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     height: 100px;
     margin-bottom: 100px;
 }
@@ -137,19 +143,20 @@ footer p {
 .cubos {
     display: grid;
     align-items: center;
-    border: 3px solid var(--cubos);
+    border: 3px solid var(--azulCiano);
     padding: 5px;
     height: 250px;
 
-    min-width: 150px;
+    min-width: 120px;
     width: 40vw;
     max-width: 400px;
 
 
     border-radius: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 .cubos h6 {
+    font-family: "Orbitron";
     text-align: center;
     font-size: 2em;
 }
@@ -236,7 +243,7 @@ footer p {
 }
 #imagemSecaoTempo {
     margin: auto;
-    height: 300px;
+    height: 400px;
 }
 #secaoTempo article {
     max-width: 600px;
@@ -268,7 +275,7 @@ footer p {
     justify-items: center;
     margin: auto;
     grid-template-columns: repeat(2, 1fr);
-    max-width: 900px;
+    max-width: 880px;
 }
 #secaoManutencao h2 {
     text-align: center;
@@ -306,4 +313,7 @@ footer p {
 }
 .soMobile {
     display: none;
+}
+.Azulciano {
+    color: var(--azulCiano);
 }
