@@ -76,7 +76,9 @@ header menu {
     display: flex;
     align-items: center;
     font-family: 'Orbitron';
+    margin: auto;
     border-bottom: 1px solid var(--branco);
+    width: 85vw;
     height: 100px;
 }
 .itemMenuRetroativo a {
