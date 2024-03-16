@@ -1,0 +1,123 @@
+:root {
+    --h1: #ffffff;
+    --h2: #18b5d9;
+    --texto: #ffffff;
+    --menu: #ffffff;
+    --preto: #000000;
+    --corpo: #000000;
+    --branco: #ffffff;
+    --azulCiano: #18b5d9;
+    --cubos: #272a59fa;
+    --footer: #0306296b;
+    --fundoHeaderMobile: #000000ea;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+/*                                                                  Header*/
+
+header  menu  a {
+    width: 120px;
+    margin-right: 5px;
+}
+#botaoFaleConosco {
+    width: 125px;
+    border-radius: 15px;
+    padding: 20px 10px;
+    margin-right: 10px;
+}
+
+
+/*                                                                  Corpo*/
+
+
+
+h2 {
+    font-size: 2.4em;
+}
+p {
+    font-size: 1.1em;
+    line-height: 30px;
+}
+
+#primeiraTela {
+    background: black url(../../imagens/tela\ fundo\ cortada.jpg) no-repeat fixed;
+    background-size: cover;
+    background-position: right center;
+}
+#artigoPrimeiraTela h1 {
+    font-size: 3em;
+}
+#artigoPrimeiraTela p {
+    line-height: 35px;
+    font-size: 1.1em;
+}
+
+
+/*                                                       Paragrafos retrateis*/
+
+
+
+#secaoParagrafoRetratil h2 {
+    font-size: 2.4em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+
+/*                                                       Seção Tempo*/
+
+
+
+#secaoTempo {
+    max-width: 97vw;
+}
+#imagemSecaoTempo {
+    max-height: 280px;
+    max-width: 280px;
+}
+#secaoTempo article {
+    max-width: 700px;
+}
+#secaoTempo h2 {
+    font-size: 2.4em;
+}
+
+
+/*                                                     Seção cubos/ Custos*/
+
+
+.cubos {
+    max-width: 350px;
+}
+.cubos h6 {
+    font-size: 1.7em;
+}
+.cubos p {
+    font-size: 1.1em;
+}
+#secaoCustos h2 {
+    font-size: 2.4em;
+}
+#espacoCubos {
+    max-width: 750px;
+}
+
+
+/*                                                 Seção Manutenção  */
+
+
+#secaoManutencao img {
+    width: 40vw;
+    margin-right: 5vw;
+}
+
+
+/*                                                  Outros  */
+
+.naoNoTablet {
+    display: none;
+}
+.soNoTablet {
+    display: block;
+}
