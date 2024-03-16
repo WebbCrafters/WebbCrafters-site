@@ -124,3 +124,6 @@ p {
 .soNoTablet {
     display: block;
 }
+.soComputador {
+    display: none;
+}

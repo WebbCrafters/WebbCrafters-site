@@ -241,3 +241,6 @@ footer img#logoFooter {
 .soMobile {
     display: block;
 }
+.soComputador {
+    display: none;
+}

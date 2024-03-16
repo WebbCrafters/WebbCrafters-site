@@ -107,11 +107,11 @@ p {
 }
 #sobreFundo {
     justify-content: left;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #000000e0, black);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.603), black, black);
     height: 500px;
 }
 #artigoPrimeiraTela {
-    margin-top: 300px;
+    margin-top: 150px;
     width: 80vw;
     height: 500px;
 }
