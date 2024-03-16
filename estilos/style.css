@@ -33,9 +33,9 @@ body {
     */
     background-color: var(--corpo);
 }
-a {
-    text-decoration: none;
-}
+
+/*                                                                  Header*/
+
 header {
     display: flex;
     align-items: center;
@@ -69,116 +69,18 @@ header  menu  a {
 header  menu  a:hover {
     border-bottom: 4px solid var(--branco);
 }
-main {
-    max-width: 1800px;
-}
-h1 {
-    font-family: "Orbitron";
-}
-h2 {
-    font-family: "Orbitron";
-    font-weight: 400;
-    color: var(--h2);
-    font-size: 2.8em;
-    margin: 0px 10px 0px 10px; 
-}
-p {
-    font-size: 1.2em;
-    line-height: 30px;
-}
-footer {
-    background-color: var(--footer);
-    border-top: 2px solid var(--branco);
-}
-footer img#logoFooter {
-    display: block;
-    text-align: center;
-    margin: auto;
-    margin-top: 40px;
-    height: 100px;
-    margin-bottom: 100px;
-}
-footer p {
-    display: block;
-    text-align: center;
-    margin: auto;
-    padding-bottom: 70px;
-    max-width: 800px;
-
-    
-}
-
-
-/*                                                                  Classes*/
-
-.aEsquerda {
-    text-align: right;
-}
-.divisoesParagrafoRetratil {
-    display: block;
-    border-bottom: 1px solid var(--azulCiano);
-    /*border-top: 1px solid var(--azulCiano);*/
-}
-.paragrafoRetratil {
-    text-align: justify;
-    margin: auto;
-    width: 900px;
-    max-width: 95%;
-
-    max-height: 0px;
-    overflow: hidden;
-    transition: max-height 0.9s ease;
-}
-.paragrafoRetratil.expandir {
-    max-height: 800px; /* Ajuste a altura máxima conforme necessário */
-}
-.setaParagrafoRetratil {
-    cursor: pointer;
-    margin: auto;
-    padding: 5px 25px 5px 25px;
-}
-.setaParaCima {
-    transform: rotate(180deg);
-}
-.cubos {
-    display: grid;
-    align-items: center;
-    border: 3px solid var(--azulCiano);
-    padding: 5px;
-    height: 250px;
-
-    min-width: 120px;
-    width: 40vw;
-    max-width: 400px;
-
-
-    border-radius: 20px;
-    margin-bottom: 25px;
-}
-.cubos h6 {
-    font-family: "Orbitron";
-    text-align: center;
-    font-size: 2em;
-}
-.cubos p {
-    align-self: flex-end;
-    font-size: 1.3em;
-}
-
-/*                                                                  Id's*/
-
 #secaoImagens {
     display: flex;
     align-items: center;
     border-right: 1px solid var(--branco);
     padding-right: 20px;
 }
-#logoHeader {
+.logoHeader {
     width: 50px;
     height: 50px;
     margin-right: 5px;
 }
-#legendaHeader {
+.legendaHeader {
     width: 150px;
     height: 25px;
 }
@@ -197,6 +99,31 @@ footer p {
 }
 #botaoFaleConosco:hover{
     border: 2px solid var(--azulCiano);
+}
+
+
+/*                                                                  Corpo*/
+
+
+main {
+    max-width: 1800px;
+}
+h1 {
+    font-family: "Orbitron";
+}
+h2 {
+    font-family: "Orbitron";
+    font-weight: 400;
+    color: var(--h2);
+    font-size: 2.8em;
+    margin: 0px 10px 0px 10px; 
+}
+p {
+    font-size: 1.2em;
+    line-height: 30px;
+}
+a {
+    text-decoration: none;
 }
 #primeiraTela {
     width: 100%;
@@ -228,6 +155,58 @@ footer p {
     line-height: 35px;
     font-size: 1.3em;
 }
+
+/*                                                                  Footer*/
+
+footer {
+    background-color: var(--footer);
+    border-top: 2px solid var(--branco);
+}
+footer img#logoFooter {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    height: 100px;
+    margin-bottom: 100px;
+}
+footer p {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 70px;
+    max-width: 800px;
+}
+
+
+/*                                                       Paragrafos retrateis*/
+
+.divisoesParagrafoRetratil {
+    display: block;
+    border-bottom: 1px solid var(--azulCiano);
+    /*border-top: 1px solid var(--azulCiano);*/
+}
+.paragrafoRetratil {
+    text-align: justify;
+    margin: auto;
+    width: 900px;
+    max-width: 95%;
+
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.9s ease;
+}
+.paragrafoRetratil.expandir {
+    max-height: 800px; /* Ajuste a altura máxima conforme necessário */
+}
+.setaParagrafoRetratil {
+    cursor: pointer;
+    margin: auto;
+    padding: 5px 25px 5px 25px;
+}
+.setaParaCima {
+    transform: rotate(180deg);
+}
 #secaoParagrafoRetratil h2 {
     font-size: 2.7em;
     margin-top: 30px;
@@ -236,6 +215,11 @@ footer p {
 #secaoParagrafoRetratil div {
     display: flex;
 }
+
+
+/*                                                       Seção Tempo*/
+
+
 #secaoTempo {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -252,6 +236,35 @@ footer p {
     font-size: 3em;
     margin-left: 0px;
     margin-bottom: 30px;
+}
+
+
+/*                                                     Seção cubos/ Custos*/
+
+
+.cubos {
+    display: grid;
+    align-items: center;
+    border: 3px solid var(--azulCiano);
+    padding: 5px;
+    height: 250px;
+
+    min-width: 120px;
+    width: 40vw;
+    max-width: 400px;
+
+
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+.cubos h6 {
+    font-family: "Orbitron";
+    text-align: center;
+    font-size: 2em;
+}
+.cubos p {
+    align-self: flex-end;
+    font-size: 1.3em;
 }
 #secaoCustos h2 {
     text-align: center;
@@ -277,6 +290,11 @@ footer p {
     grid-template-columns: repeat(2, 1fr);
     max-width: 880px;
 }
+
+
+/*                                                 Seção Manutenção  */
+
+
 #secaoManutencao h2 {
     text-align: center;
 }
@@ -293,8 +311,9 @@ footer p {
     margin-right: 5vw;
 }
 
+/*                                                 Divisões  */
 
-/*                                                  Outros  */
+
 #divisaoUm {
     border-top: 2px solid rgba(255, 255, 255, 0.61);
     height: 160px;
@@ -311,9 +330,14 @@ footer p {
 #divisaoCinco {
     height: 160px;
 }
+
+/*                                                  Outros  */
 .soMobile {
     display: none;
 }
 .Azulciano {
     color: var(--azulCiano);
+}
+.aEsquerda {
+    text-align: right;
 }
