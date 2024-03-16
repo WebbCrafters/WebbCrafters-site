@@ -18,7 +18,7 @@
 /*                                                                  Header*/
 
 
-header {
+header { 
     position: fixed;
     background-color: var(--fundoHeaderMobile);
     width: 100%;
@@ -93,6 +93,9 @@ header menu {
 /*                                                                  Corpo*/
 
 
+h2 {
+    font-size: 2.4em;
+}
 p {
     max-width: 95vw;
     margin: auto;
@@ -104,11 +107,11 @@ p {
 }
 #sobreFundo {
     justify-content: left;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.774), black);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #000000e0, black);
     height: 500px;
 }
 #artigoPrimeiraTela {
-    margin-top: 150px;
+    margin-top: 300px;
     width: 80vw;
     height: 500px;
 }
@@ -164,8 +167,9 @@ footer img#logoFooter {
     margin-bottom: 50px;
 }
 #secaoMissaoVisao span {
-    width: 80vw;
-    min-width: 400px;
+    width: 400px;
+    min-width: 200px;
+    max-width: 80vw;
 }
 #secaoMissaoVisao h4 {
     font-size: 1.5em;
