@@ -148,7 +148,7 @@ a {
 #artigoPrimeiraTela h1 {
     margin-top: 20%;
     margin-bottom: 20px;
-    font-size: 4em;
+    font-size: 3.3em;
     margin-right: 30px;
 }
 #artigoPrimeiraTela p {
@@ -261,6 +261,7 @@ footer p {
     font-family: "Orbitron";
     text-align: center;
     font-size: 2em;
+    padding: 5px;
 }
 .cubos p {
     align-self: flex-end;
