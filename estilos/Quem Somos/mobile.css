@@ -152,6 +152,7 @@ footer img#logoFooter {
 #secaoSobreNos img {
     margin: auto;
     max-width: 60vw;
+    margin-bottom: 30px;
 }
 
 
@@ -160,7 +161,7 @@ footer img#logoFooter {
 
 #secaoMissaoVisao {
     margin: auto;
-    max-width: 80vw;
+    max-width: 95vw;
 }
 #secaoMissaoVisao h2 {
     text-align: right;
@@ -170,6 +171,7 @@ footer img#logoFooter {
     width: 400px;
     min-width: 200px;
     max-width: 80vw;
+    padding: 10px;
 }
 #secaoMissaoVisao h4 {
     font-size: 1.5em;
@@ -191,7 +193,7 @@ footer img#logoFooter {
     max-width: 90vw;
 }
 #valores h2 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 #valores article {
     display: grid;
@@ -202,7 +204,7 @@ footer img#logoFooter {
     font-family: "Orbitron";
     color: var(--azulCiano);
     font-size: 1.2em;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 20px;
 }
 #colunaDois {
