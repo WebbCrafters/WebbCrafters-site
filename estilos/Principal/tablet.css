@@ -51,6 +51,9 @@ p {
     line-height: 35px;
     font-size: 1.1em;
 }
+#botaoFaleConosco {
+    margin-right: 10px;
+}
 
 
 /*                                                       Paragrafos retrateis*/
@@ -73,8 +76,8 @@ p {
     max-width: 97vw;
 }
 #imagemSecaoTempo {
-    max-height: 280px;
-    max-width: 280px;
+    max-height: 275px;
+    max-width: 275px;
 }
 #secaoTempo article {
     max-width: 700px;

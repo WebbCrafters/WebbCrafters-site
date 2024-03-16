@@ -99,7 +99,7 @@ p {
 }
 #primeiraTela {
     height: 500px;
-    background: black url(../imagens/tela\ fundo\ cortada.jpg) no-repeat fixed;
+    background: black url(../../imagens/tela\ fundo\ cortada.jpg) no-repeat fixed;
     background-size: contain;
 }
 #sobreFundo {
