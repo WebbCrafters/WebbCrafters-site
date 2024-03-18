@@ -8,6 +8,7 @@
     --corpo: #000000;
     --branco: #ffffff;
     --azulCiano: #18b5d9;
+    --azulCinzento: #1F2F33;
     --cubos: #272a59fa;
     --footer: #0306296b;
 
@@ -191,7 +192,7 @@ footer p {
     margin: auto;
     width: 900px;
     max-width: 95%;
-
+ 
     max-height: 0px;
     overflow: hidden;
     transition: max-height 0.9s ease;
@@ -241,11 +242,14 @@ footer p {
 
 /*                                                     Seção cubos/ Custos*/
 
-
+#secaoCustos {
+    
+}
 .cubos {
     display: grid;
     align-items: center;
     border: 3px solid var(--azulCiano);
+    /*background-color: var(--azulCinzento);*/
     padding: 5px;
     height: 250px;
 
