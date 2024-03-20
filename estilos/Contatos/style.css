@@ -1,0 +1,100 @@
+:root {
+    --h1: #ffffff;
+    --h2: #18b5d9;
+    --texto: #ffffff;
+    --menu: #ffffff;
+    --preto: #000000;
+    --corpo: #000000;
+    --branco: #ffffff;
+    --azulCiano: #18b5d9;
+    --azulCinzento: #1F2F33;
+    --cubos: #272a59fa;
+    --footer: #0306296b;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+/*                                                                  Header*/
+
+
+
+
+/*                                                                  Corpo*/
+
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    font-size: 3.3em;
+    margin-left: 0px;
+}
+
+/*
+#primeiraTela {
+    height: 370px;
+}
+#sobreFundo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--azulCinzento);
+    width: 100%;
+    height: 370px;
+}
+#artigoPrimeiraTela {
+    width: 100%;
+}
+#artigoPrimeiraTela h1 {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 3.3em;
+    margin-left: 0px;
+}
+#artigoPrimeiraTela p {
+    text-align: center;
+    line-height: 35px;
+    font-size: 1.3em;
+}
+*/
+
+/*                                                Espaço Contatos  */
+
+
+.cubos {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    border: 3px solid var(--azulCiano);
+
+    padding: 5px;
+    height: 250px;
+
+    min-width: 120px;
+    width: 40vw;
+    max-width: 300px;
+
+    margin-bottom: 40px;
+    border-radius: 20px;
+}
+.cubos p {
+    color: var(--branco);
+    font-size: 1.3em;
+}
+#espacoContatos {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 80vw;
+}
+
+/*                                                 Divisões  */
+
+
+#divisaoUm {
+    height: 100px;
+}
+#divisaoDois {
+    height: 160px;
+}

@@ -102,6 +102,11 @@ header  menu  a:hover {
 #botaoFaleConosco:hover{
     border: 2px solid var(--azulCiano);
 }
+
+
+/*                                                                  Corpo*/
+
+
 main {
     max-width: 1800px;
 }
@@ -160,7 +165,9 @@ footer p {
 
 /*                                                  Outros  */
 
-
+.soNoTablet {
+    display: none;
+}
 .soMobile {
     display: none;
 }
