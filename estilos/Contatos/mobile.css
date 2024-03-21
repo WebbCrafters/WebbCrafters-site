@@ -21,6 +21,7 @@
 
 header {
     position: fixed;
+    z-index: 2;
     background-color: var(--fundoHeaderMobile);
     width: 100%;
     height: 60px;
@@ -91,6 +92,8 @@ header menu {
 /*                                                                  Corpo*/
 
 h1 {
+    font-size: 3em;
+    padding-top: 15%;
     margin-top: 0px;
 }
 p {
@@ -100,8 +103,9 @@ p {
 /*
 #primeiraTela {
     height: 500px;
-    background: black url(../../imagens/tela\ fundo\ cortada.jpg) no-repeat fixed;
+    background: black url(../../imagens/young-adults-cityscape-use-technology-daily-generated-by-ai_188544-37164.jpg) no-repeat fixed;
     background-size: contain;
+    background-position: unset;
 }
 #sobreFundo {
     justify-content: center;
@@ -162,7 +166,7 @@ footer p {
 
 
 #divisaoZero {
-    height: 180px;
+    height: 60px;
 }
 #divisaoUm {
     border-top: none;
