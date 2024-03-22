@@ -86,6 +86,7 @@ header  menu  a:hover {
     width: 150px;
     height: 25px;
 }
+/*
 #botaoFaleConosco {
     display: block;
     text-align: center;
@@ -102,7 +103,7 @@ header  menu  a:hover {
 #botaoFaleConosco:hover{
     border: 2px solid var(--azulCiano);
 }
-
+*/
 
 /*                                                                  Corpo*/
 
@@ -135,7 +136,6 @@ a {
     margin-top: 20%;
     margin-bottom: 20px;
     font-size: 3.3em;
-    margin-left: 15px;
 }
 
 

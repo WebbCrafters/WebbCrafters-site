@@ -1,0 +1,83 @@
+:root {
+    --h1: #18b5d9;
+    --h2: #18b5d9;
+    --texto: #ffffff;
+    --menu: #ffffff;
+    --preto: #000000;
+    --corpo: #000000;
+    --branco: #ffffff;
+    --azulCiano: #18b5d9;
+    --azulCinzento: #1F2F33;
+    --cubos: #272a59fa;
+    --footer: #0306296b;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+/*                                                                  Header*/
+
+
+
+
+/*                                                                  Corpo*/
+
+
+h1 {
+    color: var(--h1);
+    font-size: 4em;
+    margin-left: 15px;
+}
+#primeiraTela {
+    background: black url(../../imagens/close-up-image-programer-working-his-desk-office_1098-18707.jpg) no-repeat fixed;
+    background-size: cover;
+    background-position: right center;
+}
+#sobreFundo {
+    display: flex;
+    width: 100%;
+    height: 560px;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0),black);
+}
+#artigoPrimeiraTela {
+    display: flow;
+    width: 55%;
+    height: 560px;
+}
+#artigoPrimeiraTela p {
+    max-width: 30vw;
+    margin-left: 15px;
+    line-height: 35px;
+    font-size: 1.3em;
+}
+#paragrafoDivisor {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 90vw;
+    padding: 0px 15px 30px 15px;
+    border-bottom: 1px solid var(--branco);
+}
+
+/*                                                                  Footer*/
+
+
+
+
+
+
+/*                                                 Divisões  */
+
+
+#divisaoUm {
+    border-top: 2px solid rgba(255, 255, 255, 0.61);
+    height: 160px;
+}
+#divisaoDois {
+    height: 160px;
+}
+#divisaoTres {
+    height: 200px;
+}
+
+
+/*                                                  Outros  */

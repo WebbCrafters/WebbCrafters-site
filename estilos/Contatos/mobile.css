@@ -92,13 +92,16 @@ header menu {
 /*                                                                  Corpo*/
 
 h1 {
+    margin: auto;
+    max-width: 80vw;
     font-size: 3em;
     padding-top: 15%;
     margin-top: 0px;
 }
 p {
-    max-width: 95vw;
     margin: auto;
+    max-width: 95vw;
+    font-size: 1em;
 }
 /*
 #primeiraTela {
@@ -155,6 +158,9 @@ footer p {
 .cubos p {
     color: var(--branco);
     font-size: 1em;
+}
+.cubinhos {
+    width: 90%;
 }
 #espacoContatos {
     max-width: 90vw;

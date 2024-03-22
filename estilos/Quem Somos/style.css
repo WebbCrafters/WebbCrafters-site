@@ -22,9 +22,11 @@
 /*                                                                  Corpo*/
 
 
-
+h1 {
+    margin-left: 15px;
+}
 #primeiraTela {
-    background: black url(../../imagens/quem\ somos\ \(2\).jpg) no-repeat fixed;
+    background: black url(../../imagens/quem\ \ somos.jpg) no-repeat fixed;
     background-size: cover;
     background-position: right center;
 }
@@ -63,7 +65,7 @@
 #secaoSobreNos h2 {
     margin: auto;
     text-align: center;
-    border-top: 2px solid var(--azulCiano);
+    border-top: 2px solid var(--h2);
     width: 500px;
     padding: 20px;
     margin-bottom: 50px;
@@ -143,7 +145,9 @@
 
 /*                                                 Divisões  */
 
-
+#divisaoZero {
+    height: 60px;
+}
 #divisaoUm {
     border-top: 2px solid rgba(255, 255, 255, 0.61);
     height: 160px;
