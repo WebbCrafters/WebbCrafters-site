@@ -1,0 +1,89 @@
+:root {
+    --h1: #ffffff;
+    --h2: #18b5d9;
+    --texto: #ffffff;
+    --menu: #ffffff;
+    --preto: #000000;
+    --corpo: #000000;
+    --branco: #ffffff;
+    --azulCiano: #18b5d9;
+    --cubos: #272a59fa;
+    --footer: #0306296b;
+    --fundoHeaderMobile: #000000ea;
+    --cinza: #808080;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+/*                                                                  Header*/
+
+header  menu  a {
+    width: 120px;
+    margin-right: 5px;
+}
+#botaoFaleConosco {
+    width: 125px;
+    border-radius: 15px;
+    padding: 20px 10px;
+    margin-right: 10px;
+}
+
+
+/*                                                                  Corpo*/
+
+
+
+h2 {
+    font-size: 2.4em;
+}
+p {
+    font-size: 1.1em;
+    line-height: 30px;
+}
+
+#primeiraTela {
+    background: black url(../../imagens/servicos.jpg) no-repeat fixed;
+    background-size: cover;
+    background-position: right center;
+}
+#artigoPrimeiraTela h1 {
+    font-size: 3em;
+}
+#artigoPrimeiraTela p {
+    line-height: 35px;
+    font-size: 1.1em;
+}
+#botaoFaleConosco {
+    margin-right: 10px;
+}
+
+
+/*                                                                 Seção Serviços */
+
+
+
+.servicos {
+    max-width: 250px;
+}
+#secaoServicos {
+    max-width: 90vw;
+    grid-template-columns: repeat(2, 1fr);
+}
+#secaoServicos  p {
+    font-size: 1em;
+}
+#secaoServicos h3 {
+    font-size: 1.4em;
+}
+
+
+/*                                                  Outros  */
+
+.naoNoTablet {
+    display: none;
+}
+.soNoTablet {
+    display: block;
+}
+.soComputador {
+    display: none;
+}
