@@ -102,11 +102,12 @@ p {
 }
 #primeiraTela {
     height: 500px;
-    background: black url(../../imagens/servicos.jpg) no-repeat fixed;
+    background: black url(../../imagens/servicos\ cortado.jpg) no-repeat fixed;
+    background-position: right center;
     background-size: cover;
 }
 #sobreFundo {
-    justify-content: center;
+    justify-content: left;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.774), black);
     height: 500px;
 }
@@ -116,12 +117,14 @@ p {
     height: 500px;
 }
 #artigoPrimeiraTela h1 {
+    margin-left: 15px;
     margin-top: 10%;
     margin-bottom: 20px;
     font-size: 2.5em;
     margin-right: 5px;
 }
 #artigoPrimeiraTela p {
+    margin-left: 15px;
     line-height: 30px;
     font-size: 0.9em;
 }
