@@ -21,6 +21,7 @@
     margin: 0;
 }
 html {
+    scroll-behavior: smooth;
     background-color: rgb(30, 1, 56);
 }
 body {
@@ -160,6 +161,22 @@ footer p {
     margin: auto;
     padding-bottom: 70px;
     max-width: 800px;
+}
+#divEmail {
+    display: flex;
+    justify-content: center;
+}
+#pEmail {
+    display: inline-block;
+    margin: auto;
+    max-width: 90vw;
+    color: var(--branco);
+    font-weight: 600;
+    padding: 0px 30px 20px 30px;
+    border-bottom: 2px solid var(--branco);
+}
+#footerIcons {
+    margin-top: 50px;
 }
 
 

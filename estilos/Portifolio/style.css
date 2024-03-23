@@ -52,16 +52,53 @@ h1 {
 #paragrafoDivisor {
     display: block;
     margin: auto;
-    text-align: center;
     max-width: 90vw;
     padding: 0px 15px 30px 15px;
-    border-bottom: 1px solid var(--branco);
 }
 
 /*                                                                  Footer*/
 
 
 
+/*                                                                  Seção Projetos */
+
+.colunas {
+    display: flex;
+    justify-content: center;
+}
+.projeto {
+    display: grid;
+    align-items: end;
+    width: 40vw;
+    height: 300px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.61);
+}
+.projeto img {
+    width: 99.5%;
+    height: 295px;
+    grid-column: 1;
+    grid-row: 1/3;
+    border-radius: 0px 0px 15px 15px;
+}
+.projeto p {
+    width: 100%;
+    max-height: 100px;
+    background-color: #0000009f;
+    color: var(--branco);
+    padding: 10px;
+    border-radius: 0px 0px 15px 15px;
+    grid-column: 1;
+    grid-row: 2;
+}
+#secaoProjetos {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    max-width: 90vw;
+    grid-template-columns: repeat(2, 1fr);
+}
 
 
 

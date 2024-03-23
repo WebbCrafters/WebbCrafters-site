@@ -148,7 +148,7 @@ footer p {
 
 
 /*                                                  Seção contatos  */
-
+ 
 
 .cubos {
     min-width: 120px;
@@ -159,9 +159,11 @@ footer p {
     color: var(--branco);
     font-size: 1em;
 }
+/*
 .cubinhos {
     width: 90%;
 }
+*/
 #espacoContatos {
     max-width: 90vw;
 }

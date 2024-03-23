@@ -110,6 +110,7 @@ h1 {
 .cubos:hover p {
     opacity: 1; /* Torna o parágrafo visível ao passar o mouse */
 } 
+/*
 .cubinhos {
     display: grid;
     margin: auto;
@@ -120,7 +121,6 @@ h1 {
     padding: 5px;
     height: 100px;
     min-width: 120px;
-    /* max-width: 300px; */
     margin-bottom: 80px;
     border-radius: 5px;
     transition: transform 0.3s ease;
@@ -132,6 +132,7 @@ h1 {
     color: var(--preto);
     font-weight: 600;
 }
+*/
 #espacoContatos {
     display: flex;
     margin: auto;

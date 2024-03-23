@@ -28,7 +28,7 @@ h1 {
 #primeiraTela {
     background: black url(../../imagens/quem\ \ somos.jpg) no-repeat fixed;
     background-size: cover;
-    background-position: right center;
+    background-position: center center;
 }
 #sobreFundo {
     display: flex;

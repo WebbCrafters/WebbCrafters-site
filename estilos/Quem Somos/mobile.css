@@ -103,8 +103,8 @@ p {
 }
 #primeiraTela {
     height: 500px;
-    background: black url(../../imagens/quem\ \ somos.jpg) no-repeat fixed;
-    background-position: center bottom;
+    background: black url(../../imagens/quem\ \ somos\ cortado.jpg) no-repeat fixed;
+    background-position: right bottom;
     background-size: cover;
 }
 #sobreFundo {
@@ -158,7 +158,7 @@ footer p {
 }
 #secaoSobreNos img {
     margin: auto;
-    max-width: 60vw;
+    max-width: 80vw;
     margin-bottom: 30px;
 }
 
