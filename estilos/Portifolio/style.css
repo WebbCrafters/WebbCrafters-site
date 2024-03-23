@@ -10,6 +10,7 @@
     --azulCinzento: #1F2F33;
     --cubos: #272a59fa;
     --footer: #0306296b;
+    --cinza: #808080;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 }
@@ -23,7 +24,7 @@
 
 
 h1 {
-    color: var(--h1);
+
     font-size: 4em;
     margin-left: 15px;
 }
@@ -78,10 +79,10 @@ h1 {
 }
 .projeto img {
     width: 99.5%;
-    height: 295px;
+    height: 298px;
     grid-column: 1;
     grid-row: 1/3;
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 15px;
 }
 .projeto p {
     width: 100%;

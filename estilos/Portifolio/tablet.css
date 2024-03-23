@@ -10,6 +10,7 @@
     --cubos: #272a59fa;
     --footer: #0306296b;
     --fundoHeaderMobile: #000000ea;
+    --cinza: #808080;
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 } 
@@ -48,7 +49,6 @@ p {
     width: 60%;
 }
 #artigoPrimeiraTela h1 {
-    color: var(--h1);
     margin-left: 15px;
     font-size: 3em;
 }
