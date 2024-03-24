@@ -75,10 +75,12 @@ p {
 
 #secaoTempo {
     max-width: 97vw;
+    grid-template-columns: 40% 60%;
+    overflow: hidden;
 }
 #imagemSecaoTempo {
-    max-height: 275px;
-    max-width: 275px;
+    max-height: 32vw;
+    max-width: 32vw;
 }
 #secaoTempo article {
     max-width: 700px;
@@ -112,8 +114,13 @@ p {
 
 
 #secaoManutencao img {
-    width: 40vw;
-    margin-right: 5vw;
+    max-width: 30vw;
+    max-height: 300px;
+    margin-right: 2vw;
+}
+#secaoManutencao p {
+    max-width: 50vw;
+    margin-left: 5vw;
 }
 
 

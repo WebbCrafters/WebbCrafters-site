@@ -149,6 +149,26 @@ footer p {
 
 
 
+/*                                                                  Seção pré-portfólio*/
+
+
+#secaoPrePortfolio {
+    max-width: 95vw;
+    grid-template-columns: 1fr;
+}
+#secaoPrePortfolio h3 {
+    padding: 10px;
+}
+#secaoPrePortfolio p {
+    padding: 10px;
+}
+#secaoPrePortfolio img {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 100%;
+    max-height: 400px;
+}
+
 
 /*                                                                  Seção Projetos */
 

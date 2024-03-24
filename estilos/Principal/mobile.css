@@ -165,7 +165,8 @@ footer p {
 }
 #imagemSecaoTempo {
     margin: auto;
-    height: 200px;
+    max-width: 60vw;
+    max-height: 60vw;
     margin-bottom: 100px;
 }
 #secaoTempo h2 {
@@ -221,15 +222,23 @@ footer p {
 }
 #secaoManutencao article {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 30px;
     align-items: center;
 }
 #secaoManutencao p {
+    max-width: none;
+    width: 80vw;
     margin-right: 0px;
+    margin-left: 0px;
 }
 #secaoManutencao img {
-    display: none;
+    max-height: 60vw;
+    max-width: 60vw;
+    margin-right: 0px;
+    margin-top: 50px;
 }
+
 
 
 /*                                                 Divisões  */
@@ -260,5 +269,8 @@ footer p {
     display: block;
 }
 .soComputador {
+    display: none;
+}
+.naoMobile {
     display: none;
 }

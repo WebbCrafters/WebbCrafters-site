@@ -31,3 +31,4 @@ function expandirMenu() {
 
     menuAberto = !menuAberto; // Inverte o estado do menu
 }
+

@@ -190,15 +190,18 @@
 }
 #secaoManutencao article {
     display: flex;
-    margin-top: 30px;
+    margin-top: 50px;
+    justify-content: center;
     align-items: center;
 }
 #secaoManutencao img {
-    width: 35vw;
-    margin-right: 10vw;
+    height: 400px;
+    max-width: 35vw;
+    margin-right: 5vw;
 }
 #secaoManutencao p {
-    margin-right: 5vw;
+    max-width: 45vw;
+    margin-left: 5vw;
 }
 
 /*                                                 Divisões  */

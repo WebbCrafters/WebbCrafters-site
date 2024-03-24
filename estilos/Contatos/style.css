@@ -21,14 +21,19 @@
 
 
 /*                                                                  Corpo*/
-
+#divh1 {
+    display: flex;
+    justify-content: center;
+}
 h1 {
+    display: inline-block;
     text-align: center;
-    padding-top: 10%;
+    padding: 10% 20px 40px 20px;
     margin-top: 0px;
     margin-bottom: 20px;
     font-size: 4em;
     margin-left: 0px;
+    border-bottom: 2px solid var(--branco);
 }
 
 /*
@@ -147,7 +152,7 @@ h1 {
     background-position: center;
 }
 #cubo2 {
-    background: rgba(0, 0, 0, 0) url(../../imagens/online-message-communication-connection-concept_53876-124689.jpg) no-repeat;
+    background: rgba(0, 0, 0, 0) url(../../imagens/mail\ 2.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -157,7 +162,7 @@ h1 {
     background-position: center;
 }
 #cubo4 {
-    background: white url(../../imagens/w.jpg) no-repeat;
+    background: white url(../../imagens/msg.png) no-repeat;
     background-size: cover;
     background-position: center;
 }

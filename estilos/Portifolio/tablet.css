@@ -59,6 +59,16 @@ p {
 }
 
 
+/*                                                                  Seção pré-portfólio*/
+
+
+#secaoPrePortfolio {
+    max-width: 90vw;
+}
+#secaoPrePortfolio img {
+    align-self: flex-end;
+    margin-left: 0px;
+}
 
 
 /*                                                 Divisões  */

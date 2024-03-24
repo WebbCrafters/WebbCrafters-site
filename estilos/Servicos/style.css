@@ -70,7 +70,7 @@ h1 {
 #secaoServicos {
     display: grid;
     margin: auto;
-    max-width: 80vw;
+    max-width: 90vw;
     grid-template-columns: repeat(3, 1fr);
 }
 #secaoServicos  p {
