@@ -88,7 +88,8 @@ p {
 }
 #valores > article {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 45% 10% 45%;
+    max-height: 700px;
 }
 #valores h3 {
     font-family: "Orbitron";
@@ -96,17 +97,27 @@ p {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
-#colunaDois {
-    display: grid;
+#valores img {
+    align-self: center;
+    width: 70%;
+    grid-column: 3;
+    grid-row: 2/3;
 }
 #artigoExcelencia {
     align-self: center;
 }
-.artigosParaDireita {
+#artigoCompromisso {
     align-self: flex-end;
-    padding-left: 5vw ;
-    margin-bottom: 20px;
+    margin-bottom: 10%;
+    grid-column: 3;
 }
+#artigoIntegridade {
+    align-self: flex-start;
+    margin-top: 10%;
+    grid-column: 3;
+    grid-row: 3/3;
+}
+
 
 
 
@@ -124,7 +135,7 @@ p {
     height: 200px;
 }
 #divisaoQuatro {
-    height: 160px;
+    height: 200px;
 }
 
 

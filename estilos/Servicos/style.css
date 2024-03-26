@@ -64,7 +64,7 @@ h1 {
     margin: auto;
     justify-content: center;
     max-width: 300px;
-    height: 450px;
+    max-height: 500px;
     margin-bottom: 50px;
 }
 #secaoServicos {
@@ -76,12 +76,14 @@ h1 {
 #secaoServicos  p {
     font-size: 1.1em;
     line-height: 25px;
+    margin-bottom: 50px;
 }
 #secaoServicos h3 {
     font-family: "Orbitron";
     color: var(--cinza);
     font-size: 1.7em;
-    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 /*                                                 Divisões  */

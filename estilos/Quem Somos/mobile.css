@@ -215,20 +215,32 @@ footer p {
     margin-top: 60px;
     margin-bottom: 20px;
 }
-#colunaDois {
-    display: grid;
-}
 #artigoExcelencia {
     align-self: center;
 }
 .artigosParaDireita {
     align-self: center;
-    padding-left: 0px ;
     margin-bottom: 20px;
 }
 #valores img {
     margin: auto;
-    max-width: 70vw;
+    width: 50vw;
+    max-width: 300px;
+    grid-column: 1;
+    grid-row: 2;
+}
+#artigoExcelencia {
+    align-self: center;
+    grid-row: 1;
+}
+#artigoCompromisso {
+    align-self: flex-start;
+    grid-column: 1;
+}
+#artigoIntegridade {
+    align-self: flex-end;
+    grid-column: 1;
+    grid-row: 4;
 }
 
 

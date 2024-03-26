@@ -94,7 +94,7 @@ h1 {
     min-width: 550px;
     width: 45vw;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 15px; 
     margin-bottom: 35px;
 }
 #secaoMissaoVisao h4 {
@@ -122,7 +122,8 @@ h1 {
 }
 #valores > article {
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 39% 22% 39%;
+    grid-template-rows: repeat(3, 1fr);
 }
 #valores h3 {
     font-family: "Orbitron";
@@ -130,21 +131,33 @@ h1 {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
-#colunaDois {
-    display: grid;
+#valores img {
+    align-self: center;
+    width: 100%;
+    grid-column: 2;
+    grid-row: 2/3;
 }
 #artigoExcelencia {
     align-self: center;
+    grid-row: 2/3;
 }
-.artigosParaDireita {
+#artigoCompromisso {
     align-self: flex-end;
-    padding-left: 15vw ;
     margin-bottom: 20px;
+    grid-column: 3;
+}
+#artigoIntegridade {
+    align-self: flex-start;
+    margin-top: 20px;
+    grid-column: 3;
+    grid-row: 3/3;
 }
 
 
 
 /*                                                 Divisões  */
+
+
 
 #divisaoZero {
     height: 60px;
