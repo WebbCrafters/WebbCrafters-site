@@ -62,9 +62,10 @@ h1 {
 .servicos {
     display: grid;
     margin: auto;
+    align-items: flex-start;
     justify-content: center;
     max-width: 300px;
-    max-height: 500px;
+    height: 500px;
     margin-bottom: 50px;
 }
 #secaoServicos {

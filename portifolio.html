@@ -15,17 +15,17 @@
 </head>
 <body>
     <header>
-        <a href="index.html">
+        <a href="index.html" target="_self">
             <section id="secaoImagens">
                 <img class="logoHeader" src="imagens/Webb crafters logo icon.png" alt="Logo da Webb Crafters">
                 <img class="legendaHeader" src="imagens/legenda 2.png" alt="Nome Webb Crafters">
             </section>
         </a>
         <menu>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="quem-somos.html">Quem Somos</a></li>
-            <li><a href="servicos.html">Serviços</a></li>
-            <li><a href="contato.html">Fale conosco</a></li>
+            <li><a href="index.html" target="_self">Home</a></li>
+            <li><a href="quem-somos.html" target="_self">Quem Somos</a></li>
+            <li><a href="servicos.html" target="_self">Serviços</a></li>
+            <li><a href="contato.html" target="_self">Fale conosco</a></li>
         </menu>
         <!--<a href="contato.html"><span id="botaoFaleConosco">Fale conosco</span></a>-->
         <img class="iconMenu soMobile" src="imagens/icons/menu-aberto.png" alt="Menu" onclick="expandirMenu()">
@@ -40,16 +40,16 @@
                 <img id="iconMenuDois" class="iconMenu soMobile" src="imagens/icons/letra-x.png" alt="Menu" onclick="expandirMenu()">
             </div>
             <div class="itemMenuRetroativo">
-                <a href="index.html">Home</a>
+                <a href="index.html" target="_self">Home</a>
             </div>
             <div class="itemMenuRetroativo">
-                <a href="quem-somos.html">Quem Somos</a>
+                <a href="quem-somos.html" target="_self">Quem Somos</a>
             </div>
             <div class="itemMenuRetroativo">
-                <a href="servicos.html">Serviços</a>
+                <a href="servicos.html" target="_self">Serviços</a>
             </div>
             <div class="itemMenuRetroativo">
-                <a href="contato.html">Contato</a>
+                <a href="contato.html" target="_self">Contato</a>
             </div>
         </div>
     </header>
@@ -78,29 +78,30 @@
                 <p class="paragrafoDivisor">
                     Cada projeto é tratado com uma abordagem única e personalizada, meticulosamente moldado para atender às necessidades específicas e objetivos de nossos estimados clientes.
                 </p>
-                    <br>
+                <br>
                 <p class="paragrafoDivisor"> 
                     Nossa equipe se dedica a criar soluções que não apenas atendam, mas superem as expectativas, garantindo resultados impressionantes e impactantes que deixam uma marca duradoura
                 </p>
             </div>
-            <img src="imagens/portfolio.png" alt="Imagem de portfólio">
+            <img class="naoNoMobile" src="imagens/portfolio.png" alt="Imagem de portfólio">
         </article>
         <div id="divisaoDois">
 
 
 
         </div>
+        <h2 id="h2SecaoProjetos">Nossos trabalhos</h2>
         <section id="secaoProjetos">
             <article id="colunaUm" class="colunas">
                 <span class="projeto">
-                    <img src="imagens/close-up-image-programer-working-his-desk-office_1098-18707.jpg" alt="">
+                    <img src="imagens/close-up-image-programer-working-his-desk-office_1098-18707.jpg" alt="Exemplo 1">
                     <p>Legenda</p>
                 </span>
             </article>
 
             <article id="colunaDois" class="colunas">
                 <span class="projeto">
-                    <img src="imagens/Eu preciso de um site.jpg" alt="">
+                    <img src="imagens/Eu preciso de um site.jpg" alt="Exemplo 2">
                     <p>Legenda</p>
                 </span>
             </article>
@@ -127,6 +128,7 @@
             <a href="https://www.linkedin.com/in/webb-crafters-339177300" target="_blank"><img src="imagens/icons/linkedin.png" alt="Nosso Linkedin"></a>
             <a href="https://api.whatsapp.com/send?phone=5511959456397" target="_blank"><img src="imagens/icons/botao-de-simbolo-de-telefone.png" alt="Nosso telefone"></a>
         </p>
+        <p id="creditos"><span>Créditos:</span><a href="https://www.freepik.com/" target="_blank">imagens</a><a href="https://icons8.com.br/" target="_blank">ícones</a><a href="https://www.flaticon.com/br/" target="_blank">ícones</a></p>
     </footer>
     <script src="script.js"></script>
 </body>

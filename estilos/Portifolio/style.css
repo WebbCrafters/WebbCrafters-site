@@ -135,6 +135,10 @@ h1 {
     max-width: 90vw;
     grid-template-columns: repeat(2, 1fr);
 }
+#h2SecaoProjetos {
+    text-align: center;
+    margin-bottom: 50px;
+}
 
 
 

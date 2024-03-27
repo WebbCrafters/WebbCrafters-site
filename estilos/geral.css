@@ -180,14 +180,17 @@ footer p {
     transition: color ease 0.3s, border ease 0.3s;
 
 }
-#pEmail:hover {
-    color: var(--azulClaro);
-    border-bottom: 2px solid var(--azulClaro);
-}
 #footerIcons {
     margin-top: 50px;
 }
-
+#creditos {
+    display: flex;
+    justify-content: space-between;
+    max-width: 20vw;
+    min-width: 150px;
+    font-size: 0.5em;
+    padding: 0px;
+}
 
 /*                                                  Outros  */
 
@@ -205,4 +208,11 @@ footer p {
 }
 .paraDireita {
     align-self: flex-end;
+}
+.link {
+    color: var(--azulCiano);
+    font-weight: bolder;
+}
+.link:hover {
+    color: var(--azulCinzento);
 }

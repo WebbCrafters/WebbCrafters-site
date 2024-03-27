@@ -219,3 +219,6 @@ footer p {
 .soMobile {
     display: block;
 }
+.naoNoMobile {
+    display: none;
+}
