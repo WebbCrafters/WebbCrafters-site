@@ -104,12 +104,13 @@ h1 {
 }
 .cubos p {
     position: absolute;
+    text-align: center;
+    font-family: "Orbitron";
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: var(--branco);
-    font-size: 1.3em;
-    text-align: center;
+    font-size: 1.8em;
     opacity: 0; /* Inicialmente invisível */
     transition: opacity 0.3s ease;
 }
