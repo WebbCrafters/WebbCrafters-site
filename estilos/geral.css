@@ -216,3 +216,6 @@ footer p {
 .link:hover {
     color: var(--azulCinzento);
 }
+.none {
+    display: none;
+}
