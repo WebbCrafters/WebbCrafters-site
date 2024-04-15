@@ -112,6 +112,12 @@ p {
     background: black url(../../imagens/tela\ fundo\ cortada.jpg) no-repeat fixed;
     background-size: contain;
 }
+@media screen and (orientation: landscape) {
+    /* Estilos específicos para orientação deitada */
+    #primeiraTela {
+        background-size: cover;
+    }
+}
 #sobreFundo {
     justify-content: left;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.774), black);

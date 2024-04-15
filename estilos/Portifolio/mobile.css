@@ -105,7 +105,13 @@ p {
 #primeiraTela {
     height: 500px;
     background: black url(../../imagens/portifolio\ cortado.jpg) no-repeat fixed;
-    background-size: covercontain;
+    background-size: contain;
+}
+@media screen and (orientation: landscape) {
+    /* Estilos específicos para orientação deitada */
+    #primeiraTela {
+        background-size: cover;
+    }
 }
 #sobreFundo {
     justify-content: left;
