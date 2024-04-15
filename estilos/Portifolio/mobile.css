@@ -105,7 +105,7 @@ p {
 #primeiraTela {
     height: 500px;
     background: black url(../../imagens/portifolio\ cortado.jpg) no-repeat fixed;
-    background-size: cover;
+    background-size: covercontain;
 }
 #sobreFundo {
     justify-content: left;
