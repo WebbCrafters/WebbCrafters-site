@@ -59,6 +59,13 @@ header menu {
 .espacoMenu.aberto {
     left: 0; /* Mostra o menu */
 }
+#controle {
+    overflow-y: auto;
+    height: calc(100vh - 100px); 
+}
+#controle::-webkit-scrollbar {
+    width: 0px; /* Largura da barra de rolagem */
+}
 #iconMenuDois {
     margin: 0px 10px 0px 0px;
 }

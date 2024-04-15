@@ -56,15 +56,15 @@ header menu {
     background-color: #000000;
     transition: left 0.2s ease; /* Adiciona uma transição suave */
 }
+.espacoMenu.aberto {
+    left: 0; /* Mostra o menu */
+}
 #controle {
     overflow-y: auto;
     height: calc(100vh - 100px); 
 }
 #controle::-webkit-scrollbar {
     width: 0px; /* Largura da barra de rolagem */
-}
-.espacoMenu.aberto {
-    left: 0; /* Mostra o menu */
 }
 #iconMenuDois {
     margin: 0px 10px 0px 0px;
@@ -286,4 +286,11 @@ footer p {
 }
 .naoMobile {
     display: none;
+}
+@media screen and (orientation: landscape) {
+    /* Estilos específicos para orientação deitada */
+    .imagensParagrafoRetratil, #imagemSecaoTempo, #secaoManutencao img {
+        max-width: 40vw;
+        height: auto;
+    }
 }
