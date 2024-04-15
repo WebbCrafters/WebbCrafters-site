@@ -49,6 +49,7 @@ header menu {
 }
 .espacoMenu {
     position: fixed;
+    overflow-y: auto;
     top: 0;
     left: -100%; /* Esconde o menu à esquerda */
     width: 100%;
@@ -103,7 +104,7 @@ p {
 #primeiraTela {
     height: 500px;
     background: black url(../../imagens/tela\ fundo\ cortada.jpg) no-repeat fixed;
-    background-size: contain;
+    background-size: cover;
 }
 #sobreFundo {
     justify-content: left;
