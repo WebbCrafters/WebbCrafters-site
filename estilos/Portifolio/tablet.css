@@ -71,6 +71,22 @@ p {
 }
 
 
+/*                                                                  Seção Projetos */
+
+
+.projeto {
+    width: 80vw;
+    max-width: 600px;
+}
+.projeto p {
+    grid-column: 1;
+    grid-row: 2;
+}
+#secaoProjetos {
+    grid-template-columns: 1fr;
+}
+
+
 /*                                                 Divisões  */
 
 
