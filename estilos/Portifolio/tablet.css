@@ -57,16 +57,16 @@ p {
     line-height: 35px;
     font-size: 1.1em;
 }
-
+ 
 
 /*                                                                  Seção pré-portfólio*/
 
 
 #secaoPrePortfolio {
     max-width: 90vw;
+    grid-template-columns: 55% 45%;
 }
 #secaoPrePortfolio img {
-    align-self: flex-end;
     margin-left: 0px;
 }
 
@@ -75,7 +75,7 @@ p {
 
 
 .projeto {
-    width: 80vw;
+    width: 60vw;
     max-width: 600px;
 }
 .projeto p {
