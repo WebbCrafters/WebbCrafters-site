@@ -115,7 +115,6 @@ h1 {
     height: auto;
     margin-bottom: 50px;
     border-radius: 15px;
-    border: 1px solid rgba(255, 255, 255, 0.61);
     transition: transform 0.3s ease;
 }
 .projeto:hover {
