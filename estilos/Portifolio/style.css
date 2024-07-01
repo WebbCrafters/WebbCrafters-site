@@ -107,6 +107,9 @@ h1 {
     display: flex;
     justify-content: center;
 }
+.colunas a {
+    border: none;
+}
 .projeto {
     display: grid;
     align-items: end;
