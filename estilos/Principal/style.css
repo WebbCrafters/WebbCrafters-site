@@ -80,6 +80,11 @@
 }
 .setaParaCima {
     transform: rotate(180deg);
+    transition: transform 0.8s ease;
+}
+.setaParaBaixo {
+    transform: rotate(0deg);
+    transition: transform 0.8s ease;
 }
 .imagensParagrafoRetratil {
     display: block;

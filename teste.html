@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .esquerda {
+            position: relative;
+            left: -100%;
+            transition: left 1s;
+        }
+
+        .direita {
+            position: relative;
+            right: -100%;
+            transition: right 1s;
+        }
+
+        .visivel-esquerda {
+            left: 0;
+        }
+
+        .visivel-direita {
+            right: 0;
+        }
+
+        /* Estilos adicionais para o layout */
+        body {
+            height: 2000px; /* Apenas para permitir a rolagem */
+            margin: 0;
+            padding: 0;
+        }
+
+        #elemento1, #elemento2 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="triggerPoint1" style="margin-top: 800px;">Ponto de disparo 1</div>
+    <div id="elemento1" class="esquerda">Elemento 1</div>
+    <div id="elemento2" class="direita">Elemento 2</div>
+    <div id="triggerPoint2" style="margin-top: 200px;">Ponto de disparo 2</div>
+
+    <script>
+        window.addEventListener('scroll', function() {
+            var triggerPoint1 = document.getElementById('triggerPoint1');
+            var triggerPoint2 = document.getElementById('triggerPoint2');
+            var elemento1 = document.getElementById('elemento1');
+            var elemento2 = document.getElementById('elemento2');
+            var posicao1 = triggerPoint1.getBoundingClientRect();
+            var posicao2 = triggerPoint2.getBoundingClientRect();
+
+            // Verifica se o primeiro ponto de disparo está visível na tela
+            if (posicao1.top < window.innerHeight && posicao1.bottom >= 0) {
+                elemento1.classList.add('visivel-esquerda');
+                elemento2.classList.add('visivel-direita');
+            }
+
+            // Verifica se o segundo ponto de disparo está visível na tela
+            if (posicao2.top < window.innerHeight && posicao2.bottom >= 0) {
+                elemento1.classList.remove('visivel-esquerda');
+                elemento2.classList.remove('visivel-direita');
+            }
+        });
+    </script>
+</body>
+</html>
