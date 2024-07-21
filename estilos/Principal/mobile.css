@@ -22,7 +22,7 @@
 
 header {
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     background-color: var(--fundoHeaderMobile);
     width: 100%;
     height: 60px;
@@ -176,17 +176,24 @@ footer p {
 #secaoTempo {
     grid-template-columns: repeat(1, 1fr);
 }
-#imagemSecaoTempo {
-    margin: auto;
-    max-width: 60vw;
-    max-height: 60vw;
+#conteinerImagensTempo {
     margin-bottom: 100px;
+}
+#imagemSecaoTempo1 {
+    max-width: 80%;
+    height: auto;
+}
+#imagemSecaoTempo2 {
+    max-width: 38%;
+    height: auto;
 }
 #secaoTempo h2 {
     font-size: 1.5em;
-    margin-left: 2vw;
+    margin-left: max(5px, 2vw);
 }
-
+#secaoTempo p {
+    margin-left: max(5px, 2vw);
+}
 
 /*                                                Seção cubos/ Custos*/
 
@@ -231,7 +238,9 @@ footer p {
 
 
 #secaoManutencao h2 {
+    text-align: left;
     font-size: 1.5em;
+    margin-left: max(5px, 2vw);
 }
 #secaoManutencao article {
     display: flex;
@@ -241,9 +250,8 @@ footer p {
 }
 #secaoManutencao p {
     max-width: none;
-    width: 80vw;
-    margin-right: 0px;
-    margin-left: 0px;
+    width: 100%;
+    margin-left: max(5px, 2vw);
 }
 #secaoManutencao img {
     max-height: 60vw;
@@ -289,7 +297,11 @@ footer p {
 }
 @media screen and (orientation: landscape) {
     /* Estilos específicos para orientação deitada */
-    .imagensParagrafoRetratil, #imagemSecaoTempo, #secaoManutencao img {
+    .imagensParagrafoRetratil {
+        max-width: 60vw;
+        height: auto;
+    }
+    .i#secaoManutencao img {
         max-width: 40vw;
         height: auto;
     }

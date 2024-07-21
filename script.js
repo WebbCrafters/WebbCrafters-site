@@ -106,6 +106,26 @@ function expandirMenu() {
     menuAberto = !menuAberto; // Inverte o estado do menu
 }
 
+document.addEventListener('scroll', function() {
+    const element = document.getElementById('imagemSecaoTempo1');
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop; // Lê a rolagem da tela
+
+    const rotationFactor = 0.1; // (quanto maior o valor, mais devagar a rotação)
+    const rotationDegree = scrollTop * rotationFactor;
+
+    element.style.transform = `rotate(${rotationDegree}deg)`;
+});
+
+document.addEventListener('scroll', function() {
+    const element = document.getElementById('imagemSecaoTempo2');
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop; // Lê a rolagem da tela
+
+    const rotationFactor = 0.1; // (quanto maior o valor, mais devagar a rotação)
+    const rotationDegree = scrollTop * rotationFactor * -1;
+
+    element.style.transform = `rotate(${rotationDegree}deg)`;
+});
+
 /*
 let cont = 0;
 

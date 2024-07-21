@@ -74,13 +74,21 @@ p {
 
 
 #secaoTempo {
-    max-width: 97vw;
-    grid-template-columns: 40% 60%;
+    max-width: 80vw;
+    margin: auto;
+    grid-template-columns: 1fr;
     overflow: hidden;
 }
-#imagemSecaoTempo {
-    max-height: 32vw;
-    max-width: 32vw;
+#conteinerImagensTempo {
+    margin-bottom: 100px;
+}
+#imagemSecaoTempo1 {
+    max-width: 100%;
+    height: auto;
+}
+#imagemSecaoTempo2 {
+    max-width: 44%;
+    height: auto;
 }
 #secaoTempo article {
     max-width: 700px;
@@ -114,13 +122,13 @@ p {
 
 
 #secaoManutencao img {
-    max-width: 30vw;
-    max-height: 300px;
-    margin-right: 2vw;
+    max-width: 35vw;
+    height: auto;
+    margin-right: max(2vw, 10px);
 }
 #secaoManutencao p {
-    max-width: 50vw;
-    margin-left: 5vw;
+    max-width: 55vw;
+    margin-left: max(3vw, 10px);
 }
 
 

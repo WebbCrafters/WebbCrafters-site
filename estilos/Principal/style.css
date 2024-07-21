@@ -109,15 +109,49 @@
 
 #secaoTempo {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 45% 55%;
     align-items: center;
 }
-#imagemSecaoTempo {
+#conteinerCentralizador {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+#conteinerImagensTempo {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    position: relative;
+    max-width: 45vw;
+    width: 75%;
+}
+#conteinerImagensTempo2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#imagemSecaoTempo1 {
     margin: auto;
-    height: 400px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+#imagemSecaoTempo2 {
+    margin: auto;
+    z-index: 1;
+    width: 42%;
+    max-width: 220px;
+    height: auto;
 }
 #secaoTempo article {
-    max-width: 600px;
+    max-width: 90%;
 }
 #secaoTempo h2 {
     font-size: 3em;
@@ -190,6 +224,10 @@
 /*                                                 Seção Manutenção  */
 
 
+#secaoManutencao {
+    margin: auto;
+    max-width: 1700px;
+}
 #secaoManutencao h2 {
     text-align: center;
 }
@@ -200,13 +238,13 @@
     align-items: center;
 }
 #secaoManutencao img {
-    height: 400px;
-    max-width: 35vw;
-    margin-right: 5vw;
+    max-width: 30vw;
+    height: auto;
+    margin-right: max(5vw, 50px);
 }
 #secaoManutencao p {
-    max-width: 45vw;
-    margin-left: 5vw;
+    max-width: 50vw;
+    margin-left: max(5vw, 50px);
 }
 
 /*                                                 Divisões  */
