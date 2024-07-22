@@ -178,13 +178,14 @@ footer p {
 }
 #conteinerImagensTempo {
     margin-bottom: 100px;
+    max-width: 90vw;
 }
 #imagemSecaoTempo1 {
     max-width: 80%;
     height: auto;
 }
 #imagemSecaoTempo2 {
-    max-width: 38%;
+    max-width: 34%;
     height: auto;
 }
 #secaoTempo h2 {
@@ -254,8 +255,9 @@ footer p {
     margin-left: max(5px, 2vw);
 }
 #secaoManutencao img {
-    max-height: 60vw;
-    max-width: 60vw;
+    height: auto;
+    width: 70vw;
+    max-width: 400px;
     margin-right: 0px;
     margin-top: 50px;
 }
