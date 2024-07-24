@@ -20,12 +20,14 @@ header  menu  a {
     width: 120px;
     margin-right: 5px;
 }
+/*
 #botaoFaleConosco {
     width: 125px;
     border-radius: 15px;
     padding: 20px 10px;
     margin-right: 10px;
 }
+*/
 
 
 /*                                                                  Corpo*/
@@ -65,7 +67,7 @@ p {
 }
 .cubos p {
     color: var(--branco);
-    font-size: 1em;
+    font-size: 1.8em;
 }
 #espacoContatos {
     max-width: 90vw;

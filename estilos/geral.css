@@ -68,7 +68,7 @@ header  menu  a {
     justify-content: center;
     width: 150px;
     height:55px;
-    margin-right: 38px;
+    margin-right: min(30px, 1.5vw);
     padding: 10px 10px 0px 10px;
 
 }
