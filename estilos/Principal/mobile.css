@@ -105,6 +105,11 @@ p {
     max-width: 95vw;
     margin: auto;
 }
+@media screen and (max-width: 300px) {
+    p {
+       font-size: 1em;
+    }
+}
 #primeiraTela {
     height: 500px;
     background: black url(../../imagens/tela\ fundo\ cortada.jpg) no-repeat fixed;
@@ -138,6 +143,19 @@ p {
     line-height: 30px;
     font-size: 0.9em;
 }
+@media screen and (max-width: 300px) {
+    #sobreFundo {
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.200), rgba(0, 0, 0, 0.740), rgba(0, 0, 0, 0.780), black);
+    }
+    #artigoPrimeiraTela h1 {
+        margin-top: 10%;
+        font-size: 2em;
+        margin-left: 5px;
+    }
+    #artigoPrimeiraTela p {
+        margin-left: 5px;
+    }
+}
 
 
 /*                                                                  Footer*/
@@ -151,6 +169,7 @@ footer img#logoFooter {
 }
 footer p {
     font-size: 1em;
+    max-width: 98vw;
 }
 
 
@@ -166,7 +185,16 @@ footer p {
 .paragrafoRetratil {
     text-align: left;
 }
-
+@media screen and (max-width: 300px) {
+    #secaoParagrafoRetratil h2 {
+        font-size: 1.4em;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #quebraH2Retratil {
+        display: none;
+    }
+}
 
 /*                                                       Seção Tempo*/
 
@@ -231,6 +259,17 @@ footer p {
     grid-template-columns: 1fr;
     max-width: 90vw;
 }
+@media screen and (max-width: 300px) {
+    .cubos {
+        width: 80vw;
+    }
+    .cubos h6 {
+        font-size: 1.2em;
+    }
+    #espacoCubos {
+        max-width: 95vw;
+    }
+}
 
 
 /*                                                 Seção Manutenção  */
@@ -294,6 +333,11 @@ footer p {
 }
 .naoMobile {
     display: none;
+}
+@media screen and (max-width: 360px) {
+    #quebraH1Principal {
+        display: none;
+    }
 }
 @media screen and (orientation: landscape) {
     /* Estilos específicos para orientação deitada */

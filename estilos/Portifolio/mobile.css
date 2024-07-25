@@ -102,6 +102,11 @@ header menu {
 h2 {
     font-size: 2.4em;
 }
+@media screen and (max-width: 300px) {
+    h2 {
+        font-size: 1.7em;
+    }
+}
 p {
     max-width: 95vw;
     margin: auto;
@@ -139,6 +144,15 @@ p {
     line-height: 30px;
     font-size: 0.9em;
 }
+@media screen and (max-width: 300px) {
+    #artigoPrimeiraTela h1 {
+        font-size: 2em;
+        margin-left: 5px;
+    }
+    #artigoPrimeiraTela p {
+        margin-left: 5px;
+    }
+}
 #paragrafoDivisor {
     font-size: 0.9em;
     max-width: 95vw;
@@ -156,6 +170,7 @@ footer img#logoFooter {
 }
 footer p {
     font-size: 1em;
+    max-width: 98vw;
 }
 
 
@@ -172,6 +187,15 @@ footer p {
 }
 #secaoPrePortfolio p {
     padding: 10px;
+}
+@media screen and (max-width: 300px) {
+    #secaoPrePortfolio h3 {
+        font-size: 1.4em;
+        margin-bottom: 30px;
+    }
+    #secaoPrePortfolio p {
+        font-size: 1em;
+    }
 }
 #secaoPrePortfolio img {
     margin: auto;

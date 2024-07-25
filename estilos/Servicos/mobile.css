@@ -132,6 +132,16 @@ p {
     line-height: 30px;
     font-size: 0.9em;
 }
+@media screen and (max-width: 300px) {
+    #artigoPrimeiraTela h1 {
+        margin-left: 5px;
+        font-size: 2em;
+    }
+    #artigoPrimeiraTela p {
+        margin-left: 5px;
+        font-size: 0.9em;
+    }
+}
 
 
 /*                                                                  Footer*/
@@ -145,6 +155,7 @@ footer img#logoFooter {
 }
 footer p {
     font-size: 1em;
+    max-width: 98vw;
 }
 
 
@@ -153,7 +164,8 @@ footer p {
 
 
 .servicos {
-    max-width: 400px;
+    width: min(400px, 90vw);
+    padding: 0px 5px;
 }
 #secaoServicos {
     max-width: 90vw;
@@ -163,6 +175,14 @@ footer p {
 }
 #secaoServicos h3 {
     font-size: 1.7em;
+}
+@media screen and (max-width: 300px) {
+    #secaoServicos  p {
+        font-size: 1em;
+    }
+    #secaoServicos h3 {
+        font-size: 1.4em;
+    }
 }
 
 
@@ -185,7 +205,6 @@ footer p {
 #divisaoCinco {
     height: 160px;
 }
-
 
 /*                                                  Outros  */
 
