@@ -46,21 +46,21 @@ header menu {
 .espacoMenu {
     position: fixed;
     top: 0;
-    left: -100%; /* Esconde o menu à esquerda */
+    left: -100%;
     width: 100%;
     height: 1500px;
     background-color: #000000;
-    transition: left 0.2s ease; /* Adiciona uma transição suave */
+    transition: left 0.2s ease;
 }
 .espacoMenu.aberto {
-    left: 0; /* Mostra o menu */
+    left: 0;
 }
 #controle {
     overflow-y: auto;
     height: calc(100vh - 100px); 
 }
 #controle::-webkit-scrollbar {
-    width: 0px; /* Largura da barra de rolagem */
+    width: 0px;
 }
 #iconMenuDois {
     margin: 0px 10px 0px 0px;
@@ -117,7 +117,6 @@ p {
     background-size: contain;
 }
 @media screen and (orientation: landscape) {
-    /* Estilos específicos para orientação deitada */
     #primeiraTela {
         background-size: cover;
         background-position: right center;
@@ -207,25 +206,9 @@ footer p {
 /*                                                                  Seção Projetos */
 
 
-.projeto {
-    width: 80vw;
+.exemplo {
+    --alturaExemplo: 380px;
 }
-.projeto p {
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    grid-column: 1;
-    grid-row: 2;
-    height: 30px;
-    font-size: 0.8em;
-    padding: 5px
-}
-#secaoProjetos {
-    grid-template-columns: 1fr;
-}
-
-
-
 
 
 

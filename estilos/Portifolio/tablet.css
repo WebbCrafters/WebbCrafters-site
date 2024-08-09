@@ -20,14 +20,6 @@ header  menu  a {
     width: 120px;
     margin-right: 5px;
 }
-/*
-#botaoFaleConosco {
-    width: 125px;
-    border-radius: 15px;
-    padding: 20px 10px;
-    margin-right: 10px;
-}
-*/
 
 
 /*                                                                  Corpo*/
@@ -76,22 +68,8 @@ p {
 /*                                                                  Seção Projetos */
 
 
-.projeto {
-    width: 60vw;
-    max-width: 600px;
-}
-.projeto p {
-    display: flex;
-    align-content: center;
-    flex-wrap: wrap;
-    grid-column: 1;
-    grid-row: 2;
-    height: 36px;
-    font-size: 0.9em;
-    padding: 8px
-}
-#secaoProjetos {
-    grid-template-columns: 1fr;
+.exemplo {
+    --alturaExemplo: 430px;
 }
 
 

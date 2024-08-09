@@ -58,7 +58,6 @@
     margin: auto;
     border-bottom: 1px solid var(--azulCiano);
     max-width: 90vw;
-    /*border-top: 1px solid var(--azulCiano);*/
 }
 .paragrafoRetratil {
     text-align: justify;
@@ -71,7 +70,7 @@
     transition: max-height 0.9s ease;
 }
 .paragrafoRetratil.expandir {
-    max-height: 800px; /* Ajuste a altura máxima conforme necessário */
+    max-height: 800px;
 }
 .setaParagrafoRetratil {
     cursor: pointer;
@@ -167,7 +166,6 @@
     display: grid;
     align-items: center;
     border: 3px solid var(--azulCiano);
-    /*background-color: var(--azulCinzento);*/
     padding: 5px;
     height: 250px;
 
@@ -178,13 +176,7 @@
 
     border-radius: 20px;
     margin-bottom: 25px;
-    /*transition: transform 0.3s ease;*/
 }
-/*
-.cubos:hover {
-    transform: scale(1.1);
-}
-*/
 .cubos h6 {
     font-family: "Orbitron";
     text-align: center;
@@ -238,7 +230,8 @@
     align-items: center;
 }
 #secaoManutencao img {
-    max-width: 30vw;
+    width: 25vw;
+    max-width: 600px;
     height: auto;
     margin-right: max(5vw, 50px);
 }

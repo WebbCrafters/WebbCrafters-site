@@ -20,14 +20,6 @@ header  menu  a {
     width: 120px;
     margin-right: 5px;
 }
-/*
-#botaoFaleConosco {
-    width: 125px;
-    border-radius: 15px;
-    padding: 20px 10px;
-    margin-right: 10px;
-}
-*/
 
 
 /*                                                                  Corpo*/
@@ -54,11 +46,6 @@ p {
     line-height: 35px;
     font-size: 1.1em;
 }
-/*
-#botaoFaleConosco {
-    margin-right: 10px;
-}
-*/
 
 
 /*                                                       Paragrafos retrateis*/
@@ -126,7 +113,7 @@ p {
 
 
 #secaoManutencao img {
-    max-width: 35vw;
+    width: 25vw;
     height: auto;
     margin-right: max(2vw, 10px);
 }

@@ -5,34 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scroll Rotation</title>
     <style>
-        body {
-            height: 2000px; /* Apenas para ter uma rolagem longa */
-        }
-        #rotateMe {
-            width: 100px;
-            height: 100px;
-            background-color: #3498db;
-            position: fixed; /* Para manter o elemento visível enquanto rola */
-            top: 50%;
-            left: 50%;
-            transform: rotate(0deg);
-            transition: transform 0.1s; /* Opcional: adiciona uma transição suave */
-        }
+       
     </style>
 </head>
 <body>
-    <div id="rotateMe"></div>
+    
     <script>
-        document.addEventListener('scroll', function() {
-            const element = document.getElementById('rotateMe');
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-
-            // Ajuste o fator de rotação aqui (quanto maior o valor, mais devagar a rotação)
-            const rotationFactor = 0.1; // Por exemplo, para girar mais devagar
-            const rotationDegree = scrollTop * rotationFactor;
-
-            element.style.transform = `rotate(${rotationDegree}deg)`;
-        });
+        
     </script>
 </body>
 </html>

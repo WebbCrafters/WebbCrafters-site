@@ -48,21 +48,21 @@ header menu {
 .espacoMenu {
     position: fixed;
     top: 0;
-    left: -100%; /* Esconde o menu à esquerda */
+    left: -100%;
     width: 100%;
     height: 1500px;
     background-color: #000000;
-    transition: left 0.2s ease; /* Adiciona uma transição suave */
+    transition: left 0.2s ease; 
 }
 .espacoMenu.aberto {
-    left: 0; /* Mostra o menu */
+    left: 0; 
 }
 #controle {
     overflow-y: auto;
     height: calc(100vh - 100px); 
 }
 #controle::-webkit-scrollbar {
-    width: 0px; /* Largura da barra de rolagem */
+    width: 0px; 
 }
 #iconMenuDois {
     margin: 0px 10px 0px 0px;
@@ -116,7 +116,6 @@ p {
     background-size: contain;
 }
 @media screen and (orientation: landscape) {
-    /* Estilos específicos para orientação deitada */
     #primeiraTela {
         background-size: cover;
     }
@@ -294,7 +293,7 @@ footer p {
 #secaoManutencao img {
     height: auto;
     width: 70vw;
-    max-width: 400px;
+    max-width: 350px;
     margin-right: 0px;
     margin-top: 50px;
 }
@@ -340,7 +339,6 @@ footer p {
     }
 }
 @media screen and (orientation: landscape) {
-    /* Estilos específicos para orientação deitada */
     .imagensParagrafoRetratil {
         max-width: 60vw;
         height: auto;
